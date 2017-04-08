@@ -40,44 +40,41 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		-webkit-text-size-adjust: none;
 	}
 
-/* Basic */
+/* For mobile phones: */
 html {
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0.13);
+    text-align: center;
 }
 
 body {
-	font-family: "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 	color: #ffffff;
 }
 
 header {
-	background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.75);
+
 }
 
 header h1 {
-	font-weight: 600;
-	font-size: 13vw;
-	margin: none;
-	padding: none;
-	padding-top: 3vh;
-	padding-bottom: 0.5vw;
+    font-weight: 600;
+    font-size: 13vw;
+    padding-top: 2vw;
+    padding-bottom: 2.5vw;
 }
 
 header button {
 	font-weight: 600;
-	font-size: 5.5vw;
+    font-size: 5vw;
 	color: rgba(255, 255, 255, 0.8);
-	margin-left: 0.3vw;
-	margin-right: 0.3vw;
-	margin-bottom: 0.5vw;
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	margin-bottom: 2vw;
 
 	background-color: rgba(0, 0, 0, 0);
 
+	border: none;
 
-	padding: 0.5vh;
-
-	margin: 2vh;
+	padding: 0.5vw;
 
 	font-family: "Raleway", sans-serif;
 
@@ -85,77 +82,52 @@ header button {
 }
 
 header button:hover {
-	color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .transition-all {
-	transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.current-button {
+    color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
-.cover-image {
-	width: 50vw;
-	height: auto;
-	image-resolution: from-image;
-	float: center;
-}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    header {
+        background-color: rgba(0, 0, 0, 0.75);
+        height: 25vh;
+    }
 
-@media screen and (min-width:736px) {
-	html {
-	    text-align: center;
-		background-color: rgba(0, 0, 0, 0.13);
-	}
+    header h1 {
+        font-weight: 600;
+        font-size: 6.5vw;
+        padding-top: 1.25vw;
+        padding-bottom: 1vw;
+    }
 
-	body {
-	    font-family: "Source Sans Pro", sans-serif;
-		color: #ffffff;
-	}
+    header button {
+    	font-weight: 600;
+        font-size: 2.25vw;
+    	color: rgba(255, 255, 255, 0.8);
+    	margin-left: 0.3vw;
+    	margin-right: 0.3vw;
 
-	header {
-	    background-color: rgba(0, 0, 0, 0.75);
+    	background-color: rgba(0, 0, 0, 0);
 
-		height: 20vh;
-	}
+    	border: none;
 
-	header h1 {
-	    font-weight: 600;
-	    font-size: 6vw;
-	    padding: 0.5vw;
-	}
+    	padding: 0.5vw;
 
-	header button {
-		font-weight: 600;
-	    font-size: 1.75vw;
-		color: rgba(255, 255, 255, 0.8);
-		margin-left: 0.3vw;
-		margin-right: 0.3vw;
-		margin-bottom: 0.5vw;
+    	font-family: "Raleway", sans-serif;
 
-		background-color: rgba(0, 0, 0, 0);
+    	outline: none;
+    }
 
-		border: none;
-
-		padding: 0.5vw;
-
-		font-family: "Raleway", sans-serif;
-
-		outline: none;
-	}
-
-	header button:hover {
-		color: rgba(255, 255, 255, 1);
-		background-color: rgba(0, 0, 0, 0.3);
-	}
-
-	.transition-all {
-	    transition: all 0.25s ease;
-	}
-
-	.cover-image {
-		width: 50vw;
-		height: auto;
-		image-resolution: from-image;
-		float: left;
-	}
-
+    header button:hover {
+        color: rgba(255, 255, 255, 1);
+    	background-color: rgba(0, 0, 0, 0.3);
+    }
 }
