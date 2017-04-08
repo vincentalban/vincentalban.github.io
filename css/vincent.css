@@ -58,13 +58,13 @@ header {
 header h1 {
     font-weight: 600;
     font-size: 6vw;
-    padding: 3vh;
+    padding: 0.5vw;
 }
 
 header button {
 	font-weight: 400;
     font-size: 1.5vw;
-	color: #ffffff;
+	color: rgba(255, 255, 255, 0.8);
 	margin-left: 0.3vw;
 	margin-right: 0.3vw;
 	margin-bottom: 0.5vw;
@@ -81,6 +81,7 @@ header button {
 }
 
 header button:hover {
+	color: rgba(255, 255, 255, 1);
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -104,22 +105,27 @@ header button:hover {
 
 		header h1 {
 		    font-weight: 600;
-		    font-size: 9vw;
-		    padding: 3vh;
+		    font-size: 7.9vh;
+			margin: none;
+			padding: none;
+		    padding-top: 3vh;
+			padding-bottom: 0.5vw;
 		}
 
 		header button {
 			font-weight: 400;
-		    font-size: 3vw;
-			color: #ffffff;
-			margin: 0.3vw;
-			margin-bottom: 1vh;
+		    font-size: 5.5vw;
+			color: rgba(255, 255, 255, 0.8);
+			margin-left: 0.3vw;
+			margin-right: 0.3vw;
+			margin-bottom: 0.5vw;
 
 			background-color: rgba(0, 0, 0, 0);
 
-			border: none;
 
-			padding: 0.5vw;
+			padding: 0.5vh;
+
+			margin: 2vh;
 
 			font-family: "Raleway", sans-serif;
 
@@ -127,6 +133,7 @@ header button:hover {
 		}
 
 		header button:hover {
+			color: rgba(255, 255, 255, 1);
 			background-color: rgba(0, 0, 0, 0.3);
 		}
 
@@ -136,17 +143,54 @@ header button:hover {
     }
 
     @media screen and (max-width:360px) {
-        html {
-            text-align: center;
-        }
+		html {
+		    text-align: center;
+		}
 
-        body {
-            font-family: "Source Sans Pro", sans-serif;
-        }
+		body {
+		    font-family: "Source Sans Pro", sans-serif;
+			color: #ffffff;
+		}
 
-        header {
-        		font-weight: 600;
-        		font-size: 12.5vw;
-        		line-height: 1.65;
-        }
+		header {
+		    background-color: rgba(0, 0, 0, 0.75);
+		}
+
+		header h1 {
+		    font-weight: 600;
+		    font-size: 7.9vh;
+			margin: none;
+			padding: none;
+		    padding-top: 3vh;
+			padding-bottom: 0.5vw;
+		}
+
+		header button {
+			font-weight: 400;
+		    font-size: 5.5vw;
+			color: rgba(255, 255, 255, 0.8);
+			margin-left: 0.3vw;
+			margin-right: 0.3vw;
+			margin-bottom: 0.5vw;
+
+			background-color: rgba(0, 0, 0, 0);
+
+
+			padding: 0.5vh;
+
+			margin: 2vh;
+
+			font-family: "Raleway", sans-serif;
+
+			outline: none;
+		}
+
+		header button:hover {
+			color: rgba(255, 255, 255, 1);
+			background-color: rgba(0, 0, 0, 0.3);
+		}
+
+		.transition-all {
+		    transition: all 0.25s ease;
+		}
     }
