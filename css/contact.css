@@ -1,0 +1,23 @@
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(0, 0, 0);
+
+    font-size: 6vw;
+
+    margin-top: 7.5vh;
+
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-family: "Source Sans Pro", sans-serif;
+        color: rgb(0, 0, 0);
+
+        font-size: 2.5vw;
+
+        margin-top: 7.5vh;
+
+        font-weight: 400;
+    }
+}
