@@ -63,6 +63,10 @@ header h1 {
     padding-bottom: 2.5vw;
 }
 
+header h1:hover {
+	color: #fffe95;
+}
+
 header button {
 	font-weight: 600;
     font-size: 5vw;
@@ -97,8 +101,11 @@ header button:hover {
     transition: all 0.25s ease;
 }
 .current-button {
-    color: rgba(255, 255, 255, 0.7);
+    color: #fffe95;
 	background-color: rgba(0, 0, 0, 0.7);
+}
+.current-main {
+	color: #fffe95;
 }
 
 @media only screen and (min-width: 768px) {
