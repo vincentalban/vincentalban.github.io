@@ -1,39 +1,36 @@
-#panel {
+.panel-row {
     width: 100vw;
     height: 30vh;
     overflow: hidden;
-}
-#panel img {
-    width: 100vw;
-    height: auto;
-
-    margin-top: -10vh;
-}
-
-#panel-two {
-    width: 100vw;
-    height: 30vh;
-    overflow: hidden;
-}
-#panel-two img {
-    width: 100vw;
-    height: auto;
-
-    margin-top: -8.5vh;
-}
-
-#panel-three {
-    width: 100vw;
-    height: 30vh;
-    overflow: hidden;
-}
-#panel-three img {
-    width: 100vw;
-    height: auto;
-
-    margin-top: -8.5vh;
 }
 
 @media only screen and (min-width: 768px) {
-    
+    .panel-row {
+        width: 25vw;
+        height: 17vw;
+        overflow: hidden;
+
+        margin: none;
+        padding: none;
+        float: left;
+    }
+    .panel-row1 {
+        width: 25vw;
+        height: 18.5vw;
+        overflow: hidden;
+
+        margin: none;
+        padding: none;
+        float: left;
+    }
+    .panel-port {
+        width: 12.5vw;
+        height: 18.5vw;
+        overflow: hidden;
+
+        margin: none;
+        padding: none;
+        float: left;
+    }
+
 }

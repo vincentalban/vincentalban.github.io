@@ -4,11 +4,19 @@ h2 {
 
     font-size: 6vw;
 
-    margin-top: 7.5vh;
+    margin-top: 4vh;
 
     font-weight: 400;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 7.5vh;
+}
+
+.contact-photo {
+    width: 50vw;
+    height: auto;
+
+    margin-top: 7.5vh;
 }
 
 @media only screen and (min-width: 768px) {
@@ -18,10 +26,20 @@ h2 {
 
         font-size: 2.5vw;
 
-        margin-top: 7.5vh;
-
         font-weight: 400;
-        margin-left: 7.5vw;
-        margin-right: 7.5vw;
+
+        float: right;
+
+        margin-top: 22vh;
+        width: 50vw;
+    }
+
+    .contact-photo {
+        height: 60vh;
+        width: auto;
+
+        float: left;
+
+        margin-left: 15vw;
     }
 }
