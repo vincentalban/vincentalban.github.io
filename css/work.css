@@ -1,0 +1,107 @@
+#footer {
+	background-color: #1f1f1f;
+	width: 100vw;
+}
+
+#creds {
+	padding: 0.5vw;
+	font-size: 5vw;
+	margin: 0.5vw;
+}
+.masters {
+    background-image: url("http://i.imgur.com/a2Ak0UB.jpg");
+}
+.nyc {
+    background-image: url("http://i.imgur.com/e40pLIY.jpg");
+}
+.china {
+    background-image: url("http://i.imgur.com/tjrOpXb.jpg");
+}
+.scot {
+    background-image: url("http://i.imgur.com/NGvN6sB.jpg");
+}
+.animal {
+    background-image: url("http://i.imgur.com/UaYyQIR.jpg");
+}
+.posed {
+    background-image: url("http://i.imgur.com/YCjePTn.jpg");
+}
+
+#album-cover {
+    float: left;
+    width: 100vw;
+    text-align: center;
+    height: 50vw;
+
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+}
+#overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+}
+#overlay:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+#album-title {
+    color: #ffffff;
+    position: relative;
+    top: 40%;
+    font-weight: 600;
+    font-size: 7.5vw;
+}
+
+@media only screen and (min-width: 768px) {
+    #footer {
+		width: 100vw;
+		height: 10vh;
+		bottom: 0;
+		background-color: #1f1f1f;
+		position: absolute;
+	}
+
+	#creds {
+		padding: none;
+		font-size: 1vw;
+		margin-bottom: 0.35vh;
+	}
+
+    #album-cover {
+        float: left;
+        width: 33.33vw;
+        text-align: center;
+        height: 22.5vw;
+
+        background-size: cover;
+        background-repeat: none;
+        text-align: center;
+    }
+    #overlay {
+        background: rgba(0, 0, 0, 0.5);
+        width: inherit;
+        height: inherit;
+    }
+    #overlay:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    #album-title {
+        color: #ffffff;
+        top: 40%;
+        font-weight: 600;
+        font-size: 3.75vw;
+    }
+
+    #footer {
+		width: 100vw;
+		height: 10vh;
+		background-color: #1f1f1f;
+	}
+
+	#creds {
+		padding: none;
+		font-size: 1vw;
+		margin-bottom: 0.35vh;
+	}
+}

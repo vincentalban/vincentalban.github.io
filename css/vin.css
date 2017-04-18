@@ -113,7 +113,7 @@ header button:hover {
     /* For desktop: */
     header {
         background-color: #1f1f1f;
-        height: 16.5vh;
+        height: 18vh;
     }
 
     header h1 {
@@ -151,7 +151,21 @@ header button:hover {
 
 	#content-banner {
 		width: 100vw;
-		height: 16.5vh;
+		height: 18vh;
 		background-color: rgba(0, 0, 0, 0);
+	}
+
+	#footer {
+		width: 100vw;
+		height: 10vh;
+		bottom: 0;
+		background-color: #1f1f1f;
+		position: absolute;
+	}
+
+	#creds {
+		padding: none;
+		font-size: 1vw;
+		margin-bottom: 0.35vh;
 	}
 }

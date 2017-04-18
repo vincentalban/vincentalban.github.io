@@ -1,7 +1,35 @@
+html {
+    	background-color: #1f1f1f;
+}
 .panel-row {
     width: 100vw;
-    height: 30vh;
+    height: 58vw;
+}
+.panel-row1 {
+    width: 100vw;
+    height: 28vw;
+    display: none;
+}
+
+.panel-port {
+    width: 50vw;
+    height: 72.5vw;
     overflow: hidden;
+
+    margin: none;
+    padding: none;
+    float: left;
+}
+
+#footer {
+	background-color: #1f1f1f;
+	width: 100vw;
+}
+
+#creds {
+	padding: 0.5vw;
+	font-size: 5vw;
+	margin: 0.5vw;
 }
 
 @media only screen and (min-width: 768px) {
@@ -22,6 +50,8 @@
         margin: none;
         padding: none;
         float: left;
+
+        display: block;
     }
     .panel-port {
         width: 12.5vw;
@@ -32,5 +62,17 @@
         padding: none;
         float: left;
     }
+    #footer {
+		width: 100vw;
+		height: 10vh;
+		bottom: 0;
+		background-color: #1f1f1f;
+		position: absolute;
+	}
 
+	#creds {
+		padding: none;
+		font-size: 1vw;
+		margin-bottom: 0.35vh;
+	}
 }
