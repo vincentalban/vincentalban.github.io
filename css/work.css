@@ -9,22 +9,28 @@
 	margin: 0.5vw;
 }
 .masters {
-    background-image: url("http://i.imgur.com/a2Ak0UB.jpg");
+    background-image: url("http://i.imgur.com/a2Ak0UBh.jpg");
+	background-position: 10% 35%;
 }
 .nyc {
-    background-image: url("http://i.imgur.com/e40pLIY.jpg");
+    background-image: url("http://i.imgur.com/e40pLIYh.jpg");
+	background-position: 0% 15%;
 }
 .china {
-    background-image: url("http://i.imgur.com/tjrOpXb.jpg");
+    background-image: url("http://i.imgur.com/tjrOpXbh.jpg");
+	background-position: 0% 60%;
 }
 .scot {
-    background-image: url("http://i.imgur.com/NGvN6sB.jpg");
+    background-image: url("http://i.imgur.com/NGvN6sBh.jpg");
+	background-position: 10% 75%;
 }
 .animal {
-    background-image: url("http://i.imgur.com/UaYyQIR.jpg");
+    background-image: url("http://i.imgur.com/UaYyQIRh.jpg");
+	background-position: 10% 50%;
 }
 .posed {
-    background-image: url("http://i.imgur.com/YCjePTn.jpg");
+    background-image: url("http://i.imgur.com/YCjePTnh.jpg");
+	background-position: 10% 25%;
 }
 
 #album-cover {
@@ -36,6 +42,9 @@
     background-size: cover;
     background-repeat: none;
     text-align: center;
+}
+#album-cover[onclick] {
+	cursor: pointer;
 }
 #overlay {
     background: rgba(0, 0, 0, 0.5);

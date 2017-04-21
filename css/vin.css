@@ -54,7 +54,10 @@ body {
 header {
     background-color: #1f1f1f;
 	width: 100vw;
+	height: 27.5vw;
 	position: fixed;
+
+	z-index: 1000
 }
 
 header h1 {
@@ -66,6 +69,14 @@ header h1 {
 
 header h1:hover {
 	color: #fffe95;
+}
+
+header h1[onclick] {
+	cursor: pointer;
+}
+
+header button[onclick] {
+	cursor: pointer;
 }
 
 header button {
@@ -94,7 +105,7 @@ header button:hover {
 
 #content-banner {
 	width: 100vw;
-	height: 15vh;
+	height: 27.5vw;
 	background-color: rgba(0, 0, 0, 0);
 }
 
@@ -114,6 +125,8 @@ header button:hover {
     header {
         background-color: #1f1f1f;
         height: 18vh;
+
+		z-index: 1000
     }
 
     header h1 {
