@@ -3,11 +3,11 @@ html {
 }
 .panel-row {
     width: 100vw;
-    height: 58vw;
+    height: 60vw;
 }
 .panel-row1 {
     width: 100vw;
-    height: 28vw;
+    height: 60vw;
     display: none;
 }
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Vincent Alban | Posed</title>
+
+        <link rel="stylesheet" href="css/vin.css">
+        <link rel="stylesheet" href="css/masters.css">
+        <link rel="stylesheet" href="css/unslider.css">
+
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1 onclick="window.location.href='index.html'" class="transition-all">VINCENT ALBAN</h1>
+            <button onclick="window.location.href='work.html'" class="transition-all">WORK</button>
+            <button onclick="window.location.href='about.html'" class="transition-all">ABOUT</button>
+            <button onclick="window.location.href='contact.html'" class="transition-all">CONTACT</button>
+        </header>
+
+        <div id="content-banner">
+
+        </div>
+
+        <div class="view-thru">
+            <ul>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/92RmWTSh.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/Z0nNN4eh.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/w2GPEfph.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/ytbjUqPh.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/YCjePTnh.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/rjkF4Ymh.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/FuLSPtwh.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/kTTvaBih.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/HwRYsTSh.jpg"/></div>
+                </li>
+                <li>
+                    <div><img id="view-img" src="http://i.imgur.com/8qyQwYjh.jpg"/></div>
+                </li>
+            </ul>
+
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/unslider.js"></script>
+        <script>
+		jQuery(document).ready(function($) {
+			$('.view-thru').unslider({
+                infinite: true,
+            });
+		});
+	</script>
+
+    </body>
+
+</html>
