@@ -54,7 +54,7 @@ body {
 header {
     background-color: #1f1f1f;
 	width: 100vw;
-	height: 27.5vw;
+	height: 35.5vw;
 	position: fixed;
 
 	z-index: 1000
@@ -105,7 +105,7 @@ header button:hover {
 
 #content-banner {
 	width: 100vw;
-	height: 27.5vw;
+	height: 35.5vw;
 	background-color: rgba(0, 0, 0, 0);
 }
 
@@ -132,7 +132,7 @@ header button:hover {
     header h1 {
         font-weight: 600;
         font-size: 6.0vw;
-        padding-top: 0;
+        padding-top: 0.5vw;
 		margin: 0;
         padding-bottom: 0;
     }
