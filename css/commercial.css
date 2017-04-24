@@ -2,6 +2,37 @@ body {
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
+#work-box {
+	padding: 0;
+
+	border: none;
+	overflow: auto;
+}
+.image-one {
+	padding: 1vw;
+	width: 65vw;
+}
+#work-desc {
+
+}
+.work-text {
+	margin-top: 2vw;
+	font-size: 5vw;
+	line-height: 6vw;
+	text-align: center;
+}
+.work-up {
+	margin-top: 2vw;
+	font-size: 6.5vw;
+	text-align: center;
+}
+.hyperup {
+	color: #fffe95;
+}
+.hyperup[onclick] {
+	cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
 	#work-box {
 		padding: 0;
@@ -15,7 +46,7 @@ body {
 	}
 	.image-one {
 		padding: 1vw;
-		width: 15vw;
+		width: 27vw;
 		float: left;
 	}
 	#work-desc {
@@ -23,12 +54,21 @@ body {
 		width: 50vw;
 		margin-right: 10vw;
 	}
-	.imgur-embed-pub {
-		width: 30vw;
-	}
 	.work-text {
+		margin-top: 2vw;
 		line-height: 3vw;
 		font-size: 2vw;
 		text-align: center;
+	}
+	.work-up {
+		margin-top: 2vw;
+		font-size: 2vw;
+		text-align: center;
+	}
+	.hyperup {
+		color: #fffe95;
+	}
+	.hyperup[onclick] {
+		cursor: pointer;
 	}
 }
