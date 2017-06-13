@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" href="css/vin.css">
         <link rel="stylesheet" href="css/masters.css">
-        <link rel="stylesheet" href="css/unslider.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -30,51 +30,23 @@
 
         </div>
 
-        <div class="view-thru">
-            <ul>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/92RmWTSh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/Z0nNN4eh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/w2GPEfph.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/ytbjUqPh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/YCjePTnh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/rjkF4Ymh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/FuLSPtwh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/kTTvaBih.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/HwRYsTSh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/8qyQwYjh.jpg"/></div>
-                </li>
-            </ul>
-
+        <div class="carousel" data-flickity>
+          <img class="carousel-cell" src="http://i.imgur.com/92RmWTSh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/Z0nNN4eh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/w2GPEfph.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/ytbjUqPh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/YCjePTnh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/DEDPBvFh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/Wgwpehyh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/YfVL3wRh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/rjkF4Ymh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/t85oHarh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/kTTvaBih.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/HwRYsTSh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/8qyQwYjh.jpg"/>
         </div>
 
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/unslider.js"></script>
-        <script>
-		jQuery(document).ready(function($) {
-			$('.view-thru').unslider({
-                infinite: true,
-            });
-		});
-	</script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     </body>
 

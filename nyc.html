@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" href="css/vin.css">
         <link rel="stylesheet" href="css/masters.css">
-        <link rel="stylesheet" href="css/unslider.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -30,39 +30,16 @@
 
         </div>
 
-        <div class="view-thru">
-            <ul>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/e40pLIYh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/BkPm1Lch.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/3vWd7Sph.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/jpfQGrKh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/hiO9xZqh.jpg"/></div>
-                </li>
-                <li>
-                    <div><img id="view-img" src="http://i.imgur.com/0qUPkexh.jpg"/></div>
-                </li>
-            </ul>
-
+        <div class="carousel" data-flickity>
+          <img class="carousel-cell" src="http://i.imgur.com/e40pLIYh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/BkPm1Lch.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/3vWd7Sph.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/jpfQGrKh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/hiO9xZqh.jpg"/>
+          <img class="carousel-cell" src="http://i.imgur.com/0qUPkexh.jpg"/>
         </div>
 
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/unslider.js"></script>
-        <script>
-		jQuery(document).ready(function($) {
-			$('.view-thru').unslider({
-                infinite: true,
-            });
-		});
-	</script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     </body>
 

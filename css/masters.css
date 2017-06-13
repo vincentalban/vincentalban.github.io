@@ -1,16 +1,45 @@
 html {
 	background-color: rgba(0, 0, 0, 1);
 }
-.unslider-arrow {
-    font-size: 2.5vw;
+
+@media only screen and (max-width: 768px) {
+	.carousel {
+	  background: transparent;
+	}
+
+	.carousel-cell {
+	  width: 90vw;
+	  margin-left: 2.5vw;
+		margin-right: 2.5vw;
+	  background: transparent;
+	}
+
+	/* cell number */
+	.carousel-cell:before {
+
+	}
 }
-#view-img {
-    margin-top: 25vw;
-    height: 30vh;
-}
+
 @media only screen and (min-width: 768px) {
-    #view-img {
-        margin-top: 1.5vw;
-        height: 75vh;
-    }
+	.carousel {
+		background: transparent;
+	}
+
+	.carousel-cell {
+		height: 80vh;
+		margin-left: 2.5vw;
+		margin-right: 2.5vw;
+		background: #8C8;
+		counter-increment: gallery-cell;
+	}
+
+	/* cell number */
+	.carousel-cell:before {
+		display: block;
+		text-align: center;
+		content: counter(gallery-cell);
+		line-height: 200px;
+		font-size: 80px;
+		color: white;
+	}
 }
