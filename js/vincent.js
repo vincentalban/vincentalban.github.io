@@ -18,3 +18,11 @@ $(document).ready(function(){
         })
     }
 });
+
+$(document).keydown( function(eventObject) {
+if(eventObject.which==37) {//left arrow
+$('.owl-prev').click();//emulates click on prev button
+} else if(eventObject.which==39) {//right arrow
+$('.owl-next').click();//emulates click on next button
+}
+} );
