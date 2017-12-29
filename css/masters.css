@@ -3,43 +3,63 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-	.carousel {
-	  background: transparent;
+	.box-caro {
+		width: 100vw;
+	}
+	.owl-carousel .owl-stage {
+	  	display: flex;
+	  	align-items: center;
+	}
+	.owl-prev {
+		color: rgba(255, 255, 255);
+		font-size: 10vw;
+		display: block;
+		position: absolute;
+		bottom: 45%;
+		left: 10%;
 	}
 
-	.carousel-cell {
-	  width: 90vw;
-	  margin-left: 2.5vw;
-		margin-right: 2.5vw;
-	  background: transparent;
+	.owl-next {
+		color: rgba(255, 255, 255);
+		font-size: 10vw;
+		display: block;
+		position: absolute;
+		bottom: 45%;
+		right: 10%;
 	}
-
-	/* cell number */
-	.carousel-cell:before {
-
+	.verticala {
+		width:50%; margin-left:auto;margin-right:auto
 	}
 }
 
 @media only screen and (min-width: 768px) {
-	.carousel {
-		background: transparent;
+	.owl-carousel .owl-stage {
+	  	display: flex;
+	  	align-items: center;
 	}
 
-	.carousel-cell {
-		height: 80vh;
-		margin-left: 2.5vw;
-		margin-right: 2.5vw;
-		background: #8C8;
-		counter-increment: gallery-cell;
-	}
-
-	/* cell number */
-	.carousel-cell:before {
+	.owl-prev {
+		color: #fffd3c;
+		font-size: 5vw;
 		display: block;
+		position: absolute;
+		top: 50%;
+		left: 10%;
+	}
+
+	.owl-next {
 		text-align: center;
-		content: counter(gallery-cell);
-		line-height: 200px;
-		font-size: 80px;
-		color: white;
+		vertical-align: middle;
+		color: #fffd3c;
+		font-size: 5vw;
+		display: block;
+		position: absolute;
+		top: 50%;
+		right: 10%;
+	}
+	.verticala {
+		width:50%;
+		margin-left:auto;
+		margin-right:auto
 	}
 }
