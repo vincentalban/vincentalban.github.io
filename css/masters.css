@@ -1,5 +1,6 @@
 html {
 	background-color: rgba(0, 0, 0, 1);
+	overflow: scroll;
 }
 
 @media only screen and (max-width: 768px) {
@@ -43,7 +44,7 @@ html {
 		font-size: 5vw;
 		display: block;
 		position: absolute;
-		top: 50%;
+		top: 45%;
 		left: 10%;
 	}
 
@@ -54,7 +55,7 @@ html {
 		font-size: 5vw;
 		display: block;
 		position: absolute;
-		top: 50%;
+		top: 45%;
 		right: 10%;
 	}
 	.verticala {
