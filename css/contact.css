@@ -35,6 +35,17 @@ h2 {
 
         font-weight: 400;
     }
+    #contact-div {
+        width: 40vw;
+        float: left;
+        margin-top: 10vh;
+    }
+    .contact-img {
+        width: 40vw;
+        margin-top: 4%;
+        float: right;
+        margin-right: 5vw;
+    }
 
     #footer {
 		width: 100vw;
@@ -49,4 +60,8 @@ h2 {
 		font-size: 1vw;
 		margin-bottom: 0.35vh;
 	}
+
+    .contact-img {
+        width: 50vw;
+    }
 }
