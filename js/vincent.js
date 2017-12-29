@@ -14,7 +14,8 @@ $(document).ready(function(){
             lazyLoad:true,
             nav:true,
             navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-            loop: true
+            loop: true,
+            margin: $(window).width()/43
         })
     }
 });
