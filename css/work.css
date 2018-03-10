@@ -39,6 +39,28 @@ html {
     font-weight: 600;
     font-size: 7.5vw;
 }
+@media only screen and (max-width: 767px) {
+	.action {
+		background: url("https://i.imgur.com/yWmR8vO.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.travel {
+		background-image: url("https://i.imgur.com/ryokPPL.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.fashion {
+		background-image: url("https://i.imgur.com/2Tc0DT1h.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.activism {
+		background-image: url("https://i.imgur.com/NL1yqqTh.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
 
 @media only screen and (min-width: 768px) {
     #footer {
