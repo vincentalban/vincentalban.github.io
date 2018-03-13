@@ -44,11 +44,13 @@ html {
 		background: url("https://i.imgur.com/yWmR8vO.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: 0 -7vh;
 	}
 	.travel {
 		background-image: url("https://i.imgur.com/ryokPPL.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: 0 -7vh;
 	}
 	.fashion {
 		background-image: url("https://i.imgur.com/2Tc0DT1h.jpg");
