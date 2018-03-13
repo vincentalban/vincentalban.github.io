@@ -19,19 +19,6 @@ h2 {
     margin-top: 7.5vh;
 }
 
-#footer {
-	background-color: #1f1f1f;
-
-	position: absolute;
-	width: 100vw;
-}
-
-#creds {
-	padding: 0.5vw;
-	font-size: 5vw;
-	margin: 0.5vw;
-}
-
 @media only screen and (min-width: 768px) {
     h2 {
         font-family: "Source Sans Pro", sans-serif;
@@ -55,18 +42,4 @@ h2 {
 
         margin-right: 10vw;
     }
-
-    #footer {
-		width: 100vw;
-		height: 10vh;
-		bottom: 0;
-		background-color: #1f1f1f;
-		position: absolute;
-	}
-
-	#creds {
-		padding: none;
-		font-size: 1vw;
-		margin-bottom: 0.35vh;
-	}
 }

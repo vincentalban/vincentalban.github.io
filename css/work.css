@@ -2,17 +2,6 @@ html {
 	background-color: rgba(0, 0, 0, 0.88);
 }
 
-#footer {
-	background-color: #1f1f1f;
-	width: 100vw;
-}
-
-#creds {
-	padding: 0.5vw;
-	font-size: 5vw;
-	margin: 0.5vw;
-}
-
 #album-cover {
     float: left;
     width: 100vw;
@@ -65,19 +54,6 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
-    #footer {
-		width: 100vw;
-		height: 10vh;
-		bottom: 0;
-		background-color: #1f1f1f;
-		position: absolute;
-	}
-
-	#creds {
-		padding: none;
-		font-size: 1vw;
-		margin-bottom: 0.35vh;
-	}
 
     #album-cover {
         width: 25vw;
@@ -119,16 +95,4 @@ html {
         font-weight: 600;
         font-size: 3.75vw;
     }
-
-    #footer {
-		width: 100vw;
-		height: 10vh;
-		background-color: #1f1f1f;
-	}
-
-	#creds {
-		padding: none;
-		font-size: 1vw;
-		margin-bottom: 0.35vh;
-	}
 }

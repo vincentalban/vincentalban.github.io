@@ -21,17 +21,6 @@ html {
     float: left;
 }
 
-#footer {
-	background-color: #1f1f1f;
-	width: 100vw;
-}
-
-#creds {
-	padding: 0.5vw;
-	font-size: 5vw;
-	margin: 0.5vw;
-}
-
 @media only screen and (min-width: 768px) {
     .panel-row {
         width: 25vw;
@@ -62,17 +51,4 @@ html {
         padding: none;
         float: left;
     }
-    #footer {
-		width: 100vw;
-		height: 10vh;
-		bottom: 0;
-		background-color: #1f1f1f;
-		position: absolute;
-	}
-
-	#creds {
-		padding: none;
-		font-size: 1vw;
-		margin-bottom: 0.35vh;
-	}
 }
