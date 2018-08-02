@@ -65,6 +65,9 @@ button {
 }
 
 @media only screen and (min-width: 769px) {
+    .double-picture {
+        height: 75vh;
+    }
     #mobile {
         display: none;
     }
@@ -632,5 +635,9 @@ button {
         }
         .footer-text:hover {
             color: red;
+        }
+
+        .double-picture {
+            height: 45vh;
         }
 }
