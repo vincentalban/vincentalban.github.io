@@ -1,54 +1,511 @@
-html {
-    	background-color: #1f1f1f;
-}
-.panel-row {
+body {
     width: 100vw;
-    height: 60vw;
-}
-.panel-row1 {
-    width: 100vw;
-    height: 60vw;
-    display: none;
 }
 
-.panel-port {
-    width: 50vw;
-    height: 72.5vw;
-    overflow: hidden;
-
-    margin: none;
-    padding: none;
-    float: left;
+.clickable:hover  {
+    color: red;
 }
 
-@media only screen and (min-width: 768px) {
-    .panel-row {
-        width: 25vw;
-        height: 17vw;
-        overflow: hidden;
-
-        margin: none;
-        padding: none;
-        float: left;
+@media only screen and (min-width: 769px) {
+    #first-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
     }
-    .panel-row1 {
-        width: 25vw;
-        height: 18.5vw;
+        #first-col1 {
+            width: 30%;
+        }
+            #first-col1-row1 {
+
+                margin: auto;
+                margin-left: 3.5%;
+
+                background-color: rgb(233, 233, 233);
+            }
+                .first-col1-row1-image {
+                    width: 98%;
+
+                    display: block;
+                    margin: auto;
+                    margin-top: 0.07rem;
+                    padding: 0;
+
+                    border-style: solid;
+                    border-width: 0.07rem;
+                }
+                .first-col1-row1-title {
+                    font-family: 'Cormorant Unicase', serif;
+                    font-size: 1.7rem;
+                    font-weight: 700;
+
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 0.2rem;
+                    padding-bottom: 0.2rem;
+                }
+                .first-col1-row1-paragraph {
+                    width: 98%;
+                    text-align: justify;
+                    margin: auto;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+                }
+                .first-col1-row1-source {
+                    text-align: center;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+
+                    color: black;
+                    padding-top: 0.3rem;
+                    padding-bottom: 0.3rem;
+                }
+            #first-col1-row2 {
+                width: 100%;
+
+                margin: auto;
+                margin-left: 7%;
+            }
+                .first-col1-row2-image {
+                    margin-top: 2%;
+                    width: 90%;
+                    border-style: solid;
+                    border-width: 0.07rem;
+                }
+        #first-col2 {
+            width: 40%;
+
+        }
+        #first-col2-inner {
+            width: 96%;
+            background-color: rgb(233, 233, 233);
+            margin-left: 2%;
+            border-left-width: 0.07rem;
+            border-left-style: solid;
+            border-left-color: black;
+            border-right-width: 0.07rem;
+            border-right-style: solid;
+            border-right-color: black;
+        }
+            .first-col2-image {
+                display: block;
+                width: 95%;
+                margin: 2.5%;
+                margin: auto;
+                margin-top: 0.07rem;
+
+                border-style: solid;
+                border-width: 0.07rem;
+            }
+            .first-col2-title {
+                font-family: 'Cormorant Unicase', serif;
+                font-size: 2rem;
+                font-weight: 700;
+
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                padding-top: 0.2rem;
+                    padding-bottom: 0.2rem;
+            }
+            .first-col2-row2-paragraph {
+                width: 98%;
+                text-align: justify;
+                margin: auto;
+                font-size: 1rem;
+                font-family: 'Yantramanav', sans-serif;
+            }
+            .first-col2-row2-quote {
+                width: 98%;
+                text-align: center;
+                margin: auto;
+                font-size: 1rem;
+                font-family: 'Yantramanav', sans-serif;
+                font-weight: 500;
+                padding: 0.3rem;
+                color: rgb(179, 0, 0);
+            }
+        #first-col3 {
+            width: 30%;
+        }
+            #first-col3-row1 {
+
+                margin: auto;
+                margin-right: 3.5%;
+
+                background-color: rgb(233, 233, 233);
+            }
+                .first-col3-row1-image {
+                    width: 98%;
+
+                    display: block;
+                    margin: auto;
+                    margin-top: 0.07rem;
+                    padding: 0;
+
+                    border-style: solid;
+                    border-width: 0.07rem;
+                }
+                .first-col3-row1-title {
+                    font-family: 'Cormorant Unicase', serif;
+                    font-size: 1.7rem;
+                    font-weight: 700;
+
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 0.2rem;
+                    padding-bottom: 0.2rem;
+                }
+                .first-col3-row1-paragraph {
+                    width: 98%;
+                    text-align: justify;
+                    margin: auto;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+                }
+                .first-col3-row1-source {
+                    text-align: center;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+
+                    color: black;
+                    padding-top: 0.3rem;
+                    padding-bottom: 0.3rem;
+                }
+            #first-col3-row2 {
+                width: 100%;
+
+                margin: auto;
+                margin-left: 3%;
+            }
+                .first-col3-row2-image {
+                    margin-top: 2%;
+                    margin-bottom: 0;
+                    width: 90%;
+                    border-style: solid;
+                    border-width: 0.07rem;
+                }
+                .extra-image-filter {
+                    height: 47.5vh;
+                    object-fit: cover;
+                    object-position: 0 60%;
+                }
+                .first-col3-row2-title {
+                    font-family: 'Cormorant Unicase', serif;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    width: 90%;
+
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 0.2rem;
+                }
+        #line-section {
+            width: 96%;
+            height: 0.07rem;
+            margin: 0;
+            padding: 0;
+            margin-top: 0.5%;
+            margin-left: 2%;
+            background-color: black;
+        }
+        #second-section {
+            width: 96%;
+            margin-top: 0.8%;
+            margin-left: 2%;
+            background-color: rgb(233, 233, 233);
+
+            display: flex;
+            flex-direction: row;
+        }
+            #second-left {
+                width: 45%;
+            }
+            #second-right{ 
+                width: 55%;
+            }
+            .second-image {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+
+                border-style: solid;
+                border-width: 0.07rem;
+
+                height: 34vh;
+                object-fit: cover;
+                object-position: 0 40%;
+            }
+            .second-title {
+                font-family: 'Cormorant Unicase', serif;
+                font-size: 2rem;
+                font-weight: 700;
+
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                padding-top: 0.3rem;
+                padding-bottom: 0.3rem;
+            }
+            .second-text {
+                width: 98%;
+                text-align: justify;
+                margin: auto;
+                font-size: 1rem;
+                font-family: 'Yantramanav', sans-serif;
+            }
+            .second-text-source {
+                text-align: center;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+
+                    color: black;
+                    padding-top: 0.3rem;
+                    padding-bottom: 0.3rem;
+            }
+}
+
+@media only screen and (max-width: 768px) {
+    #first-section {
+        width: 100%;
         overflow: hidden;
-
-        margin: none;
-        padding: none;
-        float: left;
-
-        display: block;
     }
-    .panel-port {
-        width: 12.5vw;
-        height: 18.5vw;
-        overflow: hidden;
+        #first-col1 {
+            width: 100%;
+        }
+            #first-col1-row1 {
+                margin: auto;
+                background-color: rgb(233, 233, 233);
+            }
+                .first-col1-row1-image {
+                    width: 98%;
+                    display: block;
+                    margin: auto;
 
-        margin: none;
-        padding: none;
-        float: left;
-    }
+                    border-style: solid;
+                    border-width: 0.07rem;
+                }
+                .first-col1-row1-title {
+                    font-family: 'Cormorant Unicase', serif;
+                    font-weight: 700;
+
+                    font-size: 1.7rem;
+
+                    text-align: center;
+
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 0.2rem;
+                    padding-bottom: 0.2rem;
+                }
+                .first-col1-row1-paragraph {
+                    width: 98%;
+                    text-align: justify;
+                    margin: auto;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+                }
+                .first-col1-row1-source {
+                    text-align: center;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+
+                    color: black;
+                    padding-top: 0.3rem;
+                    padding-bottom: 0.3rem;
+                }
+            #first-col1-row2 {
+                width: 98%;
+
+                margin: auto;
+                margin-left: 7%;
+            }
+                .first-col1-row2-image {
+                    margin-top: 2%;
+                    margin: 0;
+                    padding: 0;
+                    width: 88%;
+                    border-style: solid;
+                    border-width: 0.07rem;
+                }
+        #first-col2 {
+            width: 100%;
+        }
+        #first-col2-inner {
+            width: 100%;
+            background-color: rgb(233, 233, 233);
+        }
+            .first-col2-image {
+                display: block;
+                width: 98%;
+                margin: auto;
+
+                border-style: solid;
+                border-width: 0.07rem;
+            }
+            .first-col2-title {
+                font-family: 'Cormorant Unicase', serif;
+                    font-weight: 700;
+
+                    font-size: 1.7rem;
+
+                    text-align: center;
+
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 0.2rem;
+                    padding-bottom: 0.2rem;
+            }
+            .first-col2-row2-paragraph {
+                width: 98%;
+                    text-align: justify;
+                    margin: auto;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+            }
+            .first-col2-row2-quote {
+                width: 98%;
+                text-align: center;
+                margin: auto;
+                font-size: 1rem;
+                font-family: 'Yantramanav', sans-serif;
+                font-weight: 500;
+                padding: 0.3rem;
+                color: rgb(179, 0, 0);
+            }
+        #first-col3 {
+            width: 100%;
+        }
+            #first-col3-row1 {
+                margin: auto;
+
+                background-color: rgb(233, 233, 233);
+            }
+                .first-col3-row1-image {
+                    width: 98%;
+                    
+                    display: block;
+                    margin: auto;
+                    margin-top: 0.07rem;
+                    padding: 0;
+
+                    border-style: solid;
+                    border-width: 0.07rem;
+                }
+                .first-col3-row1-title {
+                    font-family: 'Cormorant Unicase', serif;
+                    font-weight: 700;
+
+                    font-size: 1.7rem;
+
+                    text-align: center;
+
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 0.2rem;
+                    padding-bottom: 0.2rem;
+                }
+                .first-col3-row1-paragraph {
+                    width: 98%;
+                    text-align: justify;
+                    margin: auto;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+                }
+                .first-col3-row1-source {
+                    text-align: center;
+                    font-size: 1rem;
+                    font-family: 'Yantramanav', sans-serif;
+
+                    color: black;
+                    padding-top: 0.3rem;
+                    padding-bottom: 0.3rem;
+                }
+            #first-col3-row2 {
+                width: 100%;
+
+                margin: auto;
+            }
+                .first-col3-row2-image {
+                    display: block;
+                    margin: auto;
+                    margin-top: 2%;
+                    margin-bottom: 0;
+                    width: 88%;
+                    border-style: solid;
+                    border-width: 0.07rem;
+                }
+                .first-col3-row2-title {
+                    font-family: 'Cormorant Unicase', serif;
+                    font-size: 2rem;
+                    font-weight: 700;
+
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 0.2rem;
+                }
+                #line-section {
+                    width: 96%;
+                    height: 0.07rem;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 0.5%;
+                    margin-left: 2%;
+                    background-color: black;
+                }
+                #second-section {
+                    margin-top: 0.8%;
+                    background-color: rgb(233, 233, 233);
+                }
+                    #second-left {
+                        width: 98%;
+                        margin-left: 1%;
+                    }
+                    #second-right{ 
+                        width: 100%;
+                    }
+                    .second-image {
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+        
+                        border-style: solid;
+                        border-width: 0.07rem;
+        
+                        height: 34vh;
+                        object-fit: cover;
+                        object-position: 0 40%;
+                    }
+                    .second-title {
+                        font-family: 'Cormorant Unicase', serif;
+                        font-size: 2rem;
+                        font-weight: 700;
+        
+                        text-align: center;
+                        margin: 0;
+                        padding: 0;
+                        padding-top: 0.3rem;
+                        padding-bottom: 0.3rem;
+                    }
+                    .second-text {
+                        width: 98%;
+                        text-align: justify;
+                        margin: auto;
+                        font-size: 1rem;
+                        font-family: 'Yantramanav', sans-serif;
+                    }
+                    .second-text-source {
+                        text-align: center;
+                            font-size: 1rem;
+                            font-family: 'Yantramanav', sans-serif;
+        
+                            color: black;
+                            padding-top: 0.3rem;
+                            padding-bottom: 0.3rem;
+                    }
+
+    
 }
